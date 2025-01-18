@@ -23,7 +23,7 @@ interface WordPressPost{
 // test cases
 test.describe('createPost', ()=>{
     const baseUrl = 'https://dev.emeli.in.ua/wp-json/wp/v2';
-    const creds = Buffer.from('admin:Engineer_123').toString('base64'); // Buffer - auth type
+    const creds = Buffer.from('administrator:Eng555').toString('base64'); // Buffer - auth type
     const perfTimeout = 3000; // expected time
     test('createPostHappyPath', async({request})=>{
         const createStartTime = Date.now();
